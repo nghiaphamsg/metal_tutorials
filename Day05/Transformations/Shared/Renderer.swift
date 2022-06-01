@@ -111,7 +111,7 @@ extension Renderer: MTKViewDelegate {
       index: 0)
     
     // Use below matrix to translate the position in the vertex shader
-    //   x  y  z  w
+    //     x  y  z  w
     // 0  [1  0  0  0]      [1    0   0   0]
     // 1  [0  1  0  0]  ->  [0    1   0   0]
     // 2  [0  0  1  0]      [0    0   1   0]
