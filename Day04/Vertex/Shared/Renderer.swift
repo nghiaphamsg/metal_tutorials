@@ -14,6 +14,10 @@ class Renderer: NSObject {
   static var library: MTLLibrary!
   var pipelineState: MTLRenderPipelineState!
   var timer: Float = 0
+  // Create quad model with 6 vertex
+  lazy var quad: Quad = {
+    Quad(device: Renderer.device, scale: 0.5)
+  }()
   
   init(metalView: MTKView) {
     guard
@@ -72,7 +76,9 @@ extension Renderer: MTKViewDelegate {
           descriptor: descriptor) else {
       return
     }
+
     // Setup timer
+    // If data is less than 4KB, can pass a structure using setVertexBytes()
     timer += 0.01
     var currentTime = sin(timer)
     renderEncoder.setVertexBytes(
@@ -81,14 +87,10 @@ extension Renderer: MTKViewDelegate {
       index: 11)
 
     renderEncoder.setRenderPipelineState(pipelineState)
-    
-    // Drawing here
-    // Create quad model with 6 vertex
-    lazy var quad: Quad = {
-      Quad(device: Renderer.device, scale: 0.5)
-    }()
     renderEncoder.setVertexBuffer(quad.vertexBuffer, offset: 0, index: 0)
     renderEncoder.setVertexBuffer(quad.colorBuffer, offset: 0, index: 1)
+    
+    // Drawing here
     renderEncoder.drawIndexedPrimitives(
       type: .triangle,
       indexCount: quad.indices.count,

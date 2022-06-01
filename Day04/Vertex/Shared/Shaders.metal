@@ -24,19 +24,11 @@ struct VertexOut {
 
 // You describe each per-vertex input with the [[stage_in]] attribute.
 // The GPU now looks at the pipeline state’s vertex descriptor.
-//vertex float4 vertex_main(
-//  VertexIn input [[stage_in]],
-//  constant float &timer [[buffer(11)]])
-//{
-//  input.position.y += timer;
-//  return input.position;
-//}
-
 vertex VertexOut vertex_main(
   VertexIn input [[stage_in]],
   constant float &timer [[buffer(11)]]) {
     
-    // Set timer
+    // Set animation
     input.position.y += timer;
 
     VertexOut output {
