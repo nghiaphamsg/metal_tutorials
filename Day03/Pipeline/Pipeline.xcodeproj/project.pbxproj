@@ -68,9 +68,9 @@
 			children = (
 				5CDA23C72845B25C00EDCF30 /* train.usd */,
 				5CDA23A32845B13E00EDCF30 /* PipelineApp.swift */,
-				5CDA23A42845B13E00EDCF30 /* ContentView.swift */,
 				5CDA23A52845B13F00EDCF30 /* Assets.xcassets */,
 				5CDA23C12845B19B00EDCF30 /* Renderer.swift */,
+				5CDA23A42845B13E00EDCF30 /* ContentView.swift */,
 				5CDA23C42845B1E200EDCF30 /* MetalView.swift */,
 				5C039F9D2845B99400260906 /* Shaders.metal */,
 			);
