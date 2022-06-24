@@ -1,0 +1,686 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5CF744F3285E2688008AED76 /* LightingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF744E3285E2688008AED76 /* LightingApp.swift */; };
+		5CF744F4285E2688008AED76 /* LightingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF744E3285E2688008AED76 /* LightingApp.swift */; };
+		5CF744F7285E2688008AED76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CF744E5285E2688008AED76 /* Assets.xcassets */; };
+		5CF744F8285E2688008AED76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CF744E5285E2688008AED76 /* Assets.xcassets */; };
+		5CF74524285E26FA008AED76 /* TextureController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF74502285E26FA008AED76 /* TextureController.swift */; };
+		5CF74525285E26FA008AED76 /* TextureController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF74502285E26FA008AED76 /* TextureController.swift */; };
+		5CF74526285E26FA008AED76 /* Textures.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CF74503285E26FA008AED76 /* Textures.xcassets */; };
+		5CF74527285E26FA008AED76 /* Textures.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CF74503285E26FA008AED76 /* Textures.xcassets */; };
+		5CF74528285E26FA008AED76 /* gizmo.usd in Resources */ = {isa = PBXBuildFile; fileRef = 5CF74506285E26FA008AED76 /* gizmo.usd */; };
+		5CF74529285E26FA008AED76 /* gizmo.usd in Resources */ = {isa = PBXBuildFile; fileRef = 5CF74506285E26FA008AED76 /* gizmo.usd */; };
+		5CF7452A285E26FA008AED76 /* sphere.obj in Resources */ = {isa = PBXBuildFile; fileRef = 5CF74508285E26FA008AED76 /* sphere.obj */; };
+		5CF7452B285E26FA008AED76 /* sphere.obj in Resources */ = {isa = PBXBuildFile; fileRef = 5CF74508285E26FA008AED76 /* sphere.obj */; };
+		5CF7452C285E26FA008AED76 /* sphere.mtl in Resources */ = {isa = PBXBuildFile; fileRef = 5CF74509285E26FA008AED76 /* sphere.mtl */; };
+		5CF7452D285E26FA008AED76 /* sphere.mtl in Resources */ = {isa = PBXBuildFile; fileRef = 5CF74509285E26FA008AED76 /* sphere.mtl */; };
+		5CF7452E285E26FA008AED76 /* Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF7450B285E26FA008AED76 /* Controller.swift */; };
+		5CF7452F285E26FA008AED76 /* Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF7450B285E26FA008AED76 /* Controller.swift */; };
+		5CF74530285E26FA008AED76 /* Scene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF7450C285E26FA008AED76 /* Scene.swift */; };
+		5CF74531285E26FA008AED76 /* Scene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF7450C285E26FA008AED76 /* Scene.swift */; };
+		5CF74532285E26FA008AED76 /* Camera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF7450D285E26FA008AED76 /* Camera.swift */; };
+		5CF74533285E26FA008AED76 /* Camera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF7450D285E26FA008AED76 /* Camera.swift */; };
+		5CF74536285E26FA008AED76 /* Renderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF7450F285E26FA008AED76 /* Renderer.swift */; };
+		5CF74537285E26FA008AED76 /* Renderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF7450F285E26FA008AED76 /* Renderer.swift */; };
+		5CF74538285E26FA008AED76 /* Mesh.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF74511285E26FA008AED76 /* Mesh.swift */; };
+		5CF74539285E26FA008AED76 /* Mesh.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF74511285E26FA008AED76 /* Mesh.swift */; };
+		5CF7453A285E26FA008AED76 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF74512285E26FA008AED76 /* Model.swift */; };
+		5CF7453B285E26FA008AED76 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF74512285E26FA008AED76 /* Model.swift */; };
+		5CF7453C285E26FA008AED76 /* Transform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF74513285E26FA008AED76 /* Transform.swift */; };
+		5CF7453D285E26FA008AED76 /* Transform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF74513285E26FA008AED76 /* Transform.swift */; };
+		5CF7453E285E26FA008AED76 /* Submesh.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF74514285E26FA008AED76 /* Submesh.swift */; };
+		5CF7453F285E26FA008AED76 /* Submesh.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF74514285E26FA008AED76 /* Submesh.swift */; };
+		5CF74540285E26FA008AED76 /* VertexDescriptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF74515285E26FA008AED76 /* VertexDescriptor.swift */; };
+		5CF74541285E26FA008AED76 /* VertexDescriptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF74515285E26FA008AED76 /* VertexDescriptor.swift */; };
+		5CF74542285E26FA008AED76 /* DebugLights.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF74517285E26FA008AED76 /* DebugLights.swift */; };
+		5CF74543285E26FA008AED76 /* DebugLights.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF74517285E26FA008AED76 /* DebugLights.swift */; };
+		5CF74544285E26FA008AED76 /* DebugLights.metal in Sources */ = {isa = PBXBuildFile; fileRef = 5CF74518285E26FA008AED76 /* DebugLights.metal */; };
+		5CF74545285E26FA008AED76 /* DebugLights.metal in Sources */ = {isa = PBXBuildFile; fileRef = 5CF74518285E26FA008AED76 /* DebugLights.metal */; };
+		5CF74546285E26FA008AED76 /* MathLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF74519285E26FA008AED76 /* MathLibrary.swift */; };
+		5CF74547285E26FA008AED76 /* MathLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF74519285E26FA008AED76 /* MathLibrary.swift */; };
+		5CF74548285E26FA008AED76 /* Options.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF7451B285E26FA008AED76 /* Options.swift */; };
+		5CF74549285E26FA008AED76 /* Options.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF7451B285E26FA008AED76 /* Options.swift */; };
+		5CF7454A285E26FA008AED76 /* MetalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF7451C285E26FA008AED76 /* MetalView.swift */; };
+		5CF7454B285E26FA008AED76 /* MetalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF7451C285E26FA008AED76 /* MetalView.swift */; };
+		5CF7454C285E26FA008AED76 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF7451D285E26FA008AED76 /* ContentView.swift */; };
+		5CF7454D285E26FA008AED76 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF7451D285E26FA008AED76 /* ContentView.swift */; };
+		5CF7454E285E26FA008AED76 /* Shaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = 5CF7451F285E26FA008AED76 /* Shaders.metal */; };
+		5CF7454F285E26FA008AED76 /* Shaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = 5CF7451F285E26FA008AED76 /* Shaders.metal */; };
+		5CF74550285E26FA008AED76 /* Movement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF74522285E26FA008AED76 /* Movement.swift */; };
+		5CF74551285E26FA008AED76 /* Movement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF74522285E26FA008AED76 /* Movement.swift */; };
+		5CF74552285E26FA008AED76 /* InputController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF74523285E26FA008AED76 /* InputController.swift */; };
+		5CF74553285E26FA008AED76 /* InputController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF74523285E26FA008AED76 /* InputController.swift */; };
+		5CF74569285F026F008AED76 /* SceneLighting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF74568285F026F008AED76 /* SceneLighting.swift */; };
+		5CF7456A285F026F008AED76 /* SceneLighting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF74568285F026F008AED76 /* SceneLighting.swift */; };
+		5CF74570285FDA2F008AED76 /* Lighting.metal in Sources */ = {isa = PBXBuildFile; fileRef = 5CF7456F285FDA2F008AED76 /* Lighting.metal */; };
+		5CF74571285FDA2F008AED76 /* Lighting.metal in Sources */ = {isa = PBXBuildFile; fileRef = 5CF7456F285FDA2F008AED76 /* Lighting.metal */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5CF744E3285E2688008AED76 /* LightingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightingApp.swift; sourceTree = "<group>"; };
+		5CF744E5285E2688008AED76 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5CF744EA285E2688008AED76 /* Lighting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lighting.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CF744F0285E2688008AED76 /* Lighting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lighting.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CF744F2285E2688008AED76 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		5CF74502285E26FA008AED76 /* TextureController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextureController.swift; sourceTree = "<group>"; };
+		5CF74503285E26FA008AED76 /* Textures.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Textures.xcassets; sourceTree = "<group>"; };
+		5CF74506285E26FA008AED76 /* gizmo.usd */ = {isa = PBXFileReference; lastKnownFileType = file; path = gizmo.usd; sourceTree = "<group>"; };
+		5CF74508285E26FA008AED76 /* sphere.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sphere.obj; sourceTree = "<group>"; };
+		5CF74509285E26FA008AED76 /* sphere.mtl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sphere.mtl; sourceTree = "<group>"; };
+		5CF7450B285E26FA008AED76 /* Controller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Controller.swift; sourceTree = "<group>"; };
+		5CF7450C285E26FA008AED76 /* Scene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Scene.swift; sourceTree = "<group>"; };
+		5CF7450D285E26FA008AED76 /* Camera.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Camera.swift; sourceTree = "<group>"; };
+		5CF7450F285E26FA008AED76 /* Renderer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Renderer.swift; sourceTree = "<group>"; };
+		5CF74511285E26FA008AED76 /* Mesh.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mesh.swift; sourceTree = "<group>"; };
+		5CF74512285E26FA008AED76 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		5CF74513285E26FA008AED76 /* Transform.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Transform.swift; sourceTree = "<group>"; };
+		5CF74514285E26FA008AED76 /* Submesh.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Submesh.swift; sourceTree = "<group>"; };
+		5CF74515285E26FA008AED76 /* VertexDescriptor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VertexDescriptor.swift; sourceTree = "<group>"; };
+		5CF74517285E26FA008AED76 /* DebugLights.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DebugLights.swift; sourceTree = "<group>"; };
+		5CF74518285E26FA008AED76 /* DebugLights.metal */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.metal; path = DebugLights.metal; sourceTree = "<group>"; };
+		5CF74519285E26FA008AED76 /* MathLibrary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MathLibrary.swift; sourceTree = "<group>"; };
+		5CF7451B285E26FA008AED76 /* Options.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Options.swift; sourceTree = "<group>"; };
+		5CF7451C285E26FA008AED76 /* MetalView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetalView.swift; sourceTree = "<group>"; };
+		5CF7451D285E26FA008AED76 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5CF7451F285E26FA008AED76 /* Shaders.metal */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.metal; path = Shaders.metal; sourceTree = "<group>"; };
+		5CF74520285E26FA008AED76 /* Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
+		5CF74522285E26FA008AED76 /* Movement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Movement.swift; sourceTree = "<group>"; };
+		5CF74523285E26FA008AED76 /* InputController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InputController.swift; sourceTree = "<group>"; };
+		5CF74568285F026F008AED76 /* SceneLighting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneLighting.swift; sourceTree = "<group>"; };
+		5CF7456B285FD9C7008AED76 /* Lighting.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Lighting.h; sourceTree = "<group>"; };
+		5CF7456F285FDA2F008AED76 /* Lighting.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Lighting.metal; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5CF744E7285E2688008AED76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CF744ED285E2688008AED76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5CF744DD285E2688008AED76 = {
+			isa = PBXGroup;
+			children = (
+				5CF744E2285E2688008AED76 /* Shared */,
+				5CF744F1285E2688008AED76 /* macOS */,
+				5CF744EB285E2688008AED76 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5CF744E2285E2688008AED76 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				5CF7450A285E26FA008AED76 /* Main */,
+				5CF74510285E26FA008AED76 /* Geometry */,
+				5CF74501285E26FA008AED76 /* Textures */,
+				5CF74521285E26FA008AED76 /* Input */,
+				5CF74504285E26FA008AED76 /* Models */,
+				5CF7451E285E26FA008AED76 /* Shaders */,
+				5CF7451A285E26FA008AED76 /* Views */,
+				5CF74516285E26FA008AED76 /* Utility */,
+				5CF744E3285E2688008AED76 /* LightingApp.swift */,
+				5CF744E5285E2688008AED76 /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		5CF744EB285E2688008AED76 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5CF744EA285E2688008AED76 /* Lighting.app */,
+				5CF744F0285E2688008AED76 /* Lighting.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5CF744F1285E2688008AED76 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				5CF744F2285E2688008AED76 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		5CF74501285E26FA008AED76 /* Textures */ = {
+			isa = PBXGroup;
+			children = (
+				5CF74502285E26FA008AED76 /* TextureController.swift */,
+				5CF74503285E26FA008AED76 /* Textures.xcassets */,
+			);
+			path = Textures;
+			sourceTree = "<group>";
+		};
+		5CF74504285E26FA008AED76 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5CF74505285E26FA008AED76 /* Gizmo */,
+				5CF74507285E26FA008AED76 /* Sphere */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5CF74505285E26FA008AED76 /* Gizmo */ = {
+			isa = PBXGroup;
+			children = (
+				5CF74506285E26FA008AED76 /* gizmo.usd */,
+			);
+			path = Gizmo;
+			sourceTree = "<group>";
+		};
+		5CF74507285E26FA008AED76 /* Sphere */ = {
+			isa = PBXGroup;
+			children = (
+				5CF74508285E26FA008AED76 /* sphere.obj */,
+				5CF74509285E26FA008AED76 /* sphere.mtl */,
+			);
+			path = Sphere;
+			sourceTree = "<group>";
+		};
+		5CF7450A285E26FA008AED76 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				5CF7450B285E26FA008AED76 /* Controller.swift */,
+				5CF7450C285E26FA008AED76 /* Scene.swift */,
+				5CF7450D285E26FA008AED76 /* Camera.swift */,
+				5CF7450F285E26FA008AED76 /* Renderer.swift */,
+				5CF74568285F026F008AED76 /* SceneLighting.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		5CF74510285E26FA008AED76 /* Geometry */ = {
+			isa = PBXGroup;
+			children = (
+				5CF74511285E26FA008AED76 /* Mesh.swift */,
+				5CF74512285E26FA008AED76 /* Model.swift */,
+				5CF74513285E26FA008AED76 /* Transform.swift */,
+				5CF74514285E26FA008AED76 /* Submesh.swift */,
+				5CF74515285E26FA008AED76 /* VertexDescriptor.swift */,
+			);
+			path = Geometry;
+			sourceTree = "<group>";
+		};
+		5CF74516285E26FA008AED76 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				5CF74517285E26FA008AED76 /* DebugLights.swift */,
+				5CF74518285E26FA008AED76 /* DebugLights.metal */,
+				5CF74519285E26FA008AED76 /* MathLibrary.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		5CF7451A285E26FA008AED76 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5CF7451B285E26FA008AED76 /* Options.swift */,
+				5CF7451C285E26FA008AED76 /* MetalView.swift */,
+				5CF7451D285E26FA008AED76 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5CF7451E285E26FA008AED76 /* Shaders */ = {
+			isa = PBXGroup;
+			children = (
+				5CF7451F285E26FA008AED76 /* Shaders.metal */,
+				5CF7456F285FDA2F008AED76 /* Lighting.metal */,
+				5CF74520285E26FA008AED76 /* Common.h */,
+				5CF7456B285FD9C7008AED76 /* Lighting.h */,
+			);
+			path = Shaders;
+			sourceTree = "<group>";
+		};
+		5CF74521285E26FA008AED76 /* Input */ = {
+			isa = PBXGroup;
+			children = (
+				5CF74522285E26FA008AED76 /* Movement.swift */,
+				5CF74523285E26FA008AED76 /* InputController.swift */,
+			);
+			path = Input;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5CF744E9285E2688008AED76 /* Lighting (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CF744FB285E2688008AED76 /* Build configuration list for PBXNativeTarget "Lighting (iOS)" */;
+			buildPhases = (
+				5CF744E6285E2688008AED76 /* Sources */,
+				5CF744E7285E2688008AED76 /* Frameworks */,
+				5CF744E8285E2688008AED76 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lighting (iOS)";
+			productName = "Lighting (iOS)";
+			productReference = 5CF744EA285E2688008AED76 /* Lighting.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5CF744EF285E2688008AED76 /* Lighting (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CF744FE285E2688008AED76 /* Build configuration list for PBXNativeTarget "Lighting (macOS)" */;
+			buildPhases = (
+				5CF744EC285E2688008AED76 /* Sources */,
+				5CF744ED285E2688008AED76 /* Frameworks */,
+				5CF744EE285E2688008AED76 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lighting (macOS)";
+			productName = "Lighting (macOS)";
+			productReference = 5CF744F0285E2688008AED76 /* Lighting.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5CF744DE285E2688008AED76 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					5CF744E9285E2688008AED76 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					5CF744EF285E2688008AED76 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 5CF744E1285E2688008AED76 /* Build configuration list for PBXProject "Lighting" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5CF744DD285E2688008AED76;
+			productRefGroup = 5CF744EB285E2688008AED76 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5CF744E9285E2688008AED76 /* Lighting (iOS) */,
+				5CF744EF285E2688008AED76 /* Lighting (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5CF744E8285E2688008AED76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CF744F7285E2688008AED76 /* Assets.xcassets in Resources */,
+				5CF74528285E26FA008AED76 /* gizmo.usd in Resources */,
+				5CF7452A285E26FA008AED76 /* sphere.obj in Resources */,
+				5CF74526285E26FA008AED76 /* Textures.xcassets in Resources */,
+				5CF7452C285E26FA008AED76 /* sphere.mtl in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CF744EE285E2688008AED76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CF744F8285E2688008AED76 /* Assets.xcassets in Resources */,
+				5CF74529285E26FA008AED76 /* gizmo.usd in Resources */,
+				5CF7452B285E26FA008AED76 /* sphere.obj in Resources */,
+				5CF74527285E26FA008AED76 /* Textures.xcassets in Resources */,
+				5CF7452D285E26FA008AED76 /* sphere.mtl in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5CF744E6285E2688008AED76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CF7453C285E26FA008AED76 /* Transform.swift in Sources */,
+				5CF74536285E26FA008AED76 /* Renderer.swift in Sources */,
+				5CF74530285E26FA008AED76 /* Scene.swift in Sources */,
+				5CF74524285E26FA008AED76 /* TextureController.swift in Sources */,
+				5CF7454E285E26FA008AED76 /* Shaders.metal in Sources */,
+				5CF74548285E26FA008AED76 /* Options.swift in Sources */,
+				5CF74540285E26FA008AED76 /* VertexDescriptor.swift in Sources */,
+				5CF7454A285E26FA008AED76 /* MetalView.swift in Sources */,
+				5CF74532285E26FA008AED76 /* Camera.swift in Sources */,
+				5CF74570285FDA2F008AED76 /* Lighting.metal in Sources */,
+				5CF7454C285E26FA008AED76 /* ContentView.swift in Sources */,
+				5CF7452E285E26FA008AED76 /* Controller.swift in Sources */,
+				5CF74544285E26FA008AED76 /* DebugLights.metal in Sources */,
+				5CF7453A285E26FA008AED76 /* Model.swift in Sources */,
+				5CF7453E285E26FA008AED76 /* Submesh.swift in Sources */,
+				5CF74546285E26FA008AED76 /* MathLibrary.swift in Sources */,
+				5CF74538285E26FA008AED76 /* Mesh.swift in Sources */,
+				5CF74550285E26FA008AED76 /* Movement.swift in Sources */,
+				5CF744F3285E2688008AED76 /* LightingApp.swift in Sources */,
+				5CF74542285E26FA008AED76 /* DebugLights.swift in Sources */,
+				5CF74569285F026F008AED76 /* SceneLighting.swift in Sources */,
+				5CF74552285E26FA008AED76 /* InputController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CF744EC285E2688008AED76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CF7453D285E26FA008AED76 /* Transform.swift in Sources */,
+				5CF74537285E26FA008AED76 /* Renderer.swift in Sources */,
+				5CF74531285E26FA008AED76 /* Scene.swift in Sources */,
+				5CF74525285E26FA008AED76 /* TextureController.swift in Sources */,
+				5CF7454F285E26FA008AED76 /* Shaders.metal in Sources */,
+				5CF74549285E26FA008AED76 /* Options.swift in Sources */,
+				5CF74541285E26FA008AED76 /* VertexDescriptor.swift in Sources */,
+				5CF7454B285E26FA008AED76 /* MetalView.swift in Sources */,
+				5CF74533285E26FA008AED76 /* Camera.swift in Sources */,
+				5CF74571285FDA2F008AED76 /* Lighting.metal in Sources */,
+				5CF7454D285E26FA008AED76 /* ContentView.swift in Sources */,
+				5CF7452F285E26FA008AED76 /* Controller.swift in Sources */,
+				5CF74545285E26FA008AED76 /* DebugLights.metal in Sources */,
+				5CF7453B285E26FA008AED76 /* Model.swift in Sources */,
+				5CF7453F285E26FA008AED76 /* Submesh.swift in Sources */,
+				5CF74547285E26FA008AED76 /* MathLibrary.swift in Sources */,
+				5CF74539285E26FA008AED76 /* Mesh.swift in Sources */,
+				5CF74551285E26FA008AED76 /* Movement.swift in Sources */,
+				5CF744F4285E2688008AED76 /* LightingApp.swift in Sources */,
+				5CF74543285E26FA008AED76 /* DebugLights.swift in Sources */,
+				5CF7456A285F026F008AED76 /* SceneLighting.swift in Sources */,
+				5CF74553285E26FA008AED76 /* InputController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5CF744F9285E2688008AED76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				"OTHER_SWIFT_FLAGS[arch=*]" = "-DDEBUG";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OBJC_BRIDGING_HEADER = Shared/Shaders/Common.h;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5CF744FA285E2688008AED76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OBJC_BRIDGING_HEADER = Shared/Shaders/Common.h;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		5CF744FC285E2688008AED76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LA99DDR87G;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nghiapham.sg.Lighting;
+				PRODUCT_NAME = Lighting;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5CF744FD285E2688008AED76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LA99DDR87G;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nghiapham.sg.Lighting;
+				PRODUCT_NAME = Lighting;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5CF744FF285E2688008AED76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LA99DDR87G;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nghiapham.sg.Lighting;
+				PRODUCT_NAME = Lighting;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		5CF74500285E2688008AED76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LA99DDR87G;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nghiapham.sg.Lighting;
+				PRODUCT_NAME = Lighting;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5CF744E1285E2688008AED76 /* Build configuration list for PBXProject "Lighting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CF744F9285E2688008AED76 /* Debug */,
+				5CF744FA285E2688008AED76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CF744FB285E2688008AED76 /* Build configuration list for PBXNativeTarget "Lighting (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CF744FC285E2688008AED76 /* Debug */,
+				5CF744FD285E2688008AED76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CF744FE285E2688008AED76 /* Build configuration list for PBXNativeTarget "Lighting (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CF744FF285E2688008AED76 /* Debug */,
+				5CF74500285E2688008AED76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5CF744DE285E2688008AED76 /* Project object */;
+}
