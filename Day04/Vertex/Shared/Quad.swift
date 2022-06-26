@@ -59,7 +59,7 @@ struct Quad {
     // Setup color buffer
     guard let colorBuffer = device.makeBuffer(
       bytes: &colors,
-      length: MemoryLayout<simd_float3>.stride * indices.count,
+      length: MemoryLayout<simd_float3>.stride * colors.count,
       options: [])
     else {
       fatalError("Unable to create quad color buffer")
