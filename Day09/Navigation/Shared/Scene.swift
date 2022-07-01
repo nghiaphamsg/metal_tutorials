@@ -10,7 +10,8 @@ import MetalKit
 struct Scene {
   // var camera = FPCamera()
   // var camera = OrthographicCamera()
-  var camera = ArcballCamera()
+  // var camera = ArcballCamera()
+  var camera = FlyCamera()
   // var camera = PlayerCamera()
   lazy var house: Model = {
     Model(name: "lowpoly-house.obj")
